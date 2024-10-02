@@ -1,3 +1,5 @@
+Last updated 10/2/24
+
 My goal for this project is to unify my room light control
 Right now I am using: a remote-controlled ceiling fan, 2 sets of rgb light strips (controlled separately), Christmas lights controlled by plugging in and unplugging the lights
 
