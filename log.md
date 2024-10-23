@@ -1,3 +1,8 @@
+10/22/24
+
+Ok so new sidequest for backing up this thing. I want weekly full system backups stored in cloud storage. I plan to copy the contents of the sd card to the usb stick, then zip everything on the usb stick and upload the .zip to Google Drive.
+
+
 I HATE MARKDOWN BUT DONT HAVE TIME TO CHANGE FILE FORMAT RN UGHGHGHGHGHGHGH
 
 10/21/24 Side note: I haven't yet updated the files in this project yet, just wanted to add this log
