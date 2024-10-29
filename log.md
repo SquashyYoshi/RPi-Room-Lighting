@@ -1,3 +1,7 @@
+10/29/24
+
+I made a script that sorta works for backing it up, but i keep running into weird issues, like when I use rclone to sync the 7zip file, it just wont work. I'm not even sure if the command runs. When i run the command normally it works fine so idk,
+
 10/22/24
 
 Ok so new sidequest for backing up this thing. I want weekly full system backups stored in cloud storage. I plan to copy the contents of the sd card to the usb stick, then zip everything on the usb stick and upload the .zip to Google Drive.
