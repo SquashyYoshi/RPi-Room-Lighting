@@ -1,9 +1,9 @@
-Last updated 10/2/24
+Last updated 11/19/24
 
 My goal for this project is to unify my room light control
 Right now I am using: a remote-controlled ceiling fan, 2 sets of rgb light strips (controlled separately), Christmas lights controlled by plugging in and unplugging the lights
 
-I am using a 2.4ghz tv remote from Amazon to control everything. It has a little dongle that I can plug into my Raspberry Pi 4. The RPi will have a 433mhz transmitter to communicate with the fan and outlet controller. I will also have an infrared transmitter on the RPi with line of sight to the RGB controller. I will use 2 seperate transmitters to control both the RGB controllers. I'm also adding an ultrasonic sensor in front of my door so the lights can automatically turn on and off.
+I am using an existing IR remote to control everything. The RPi will have a 433mhz transceiver HAT to communicate with the fan and outlet controller. I will also have an infrared transmitter on the RPi with a line of sight to the RGB controller (on my desk). I'll also have another Arduino by my door hooked up to an ultrasonic sensor and an IR receiver. It will relay IR signals from the remote to the Pi via Bluetooth. The ultrasonic sensor will detect when I walk in so the lights turn on automatically.  I'm also interested in some smart features that could turn different lights on depending on the time of day.
 
 The other interface I will use is a Flask web-app interface to change settings. I will also add a sunrise alarm clock feature with schedules so that I can set different times for different days and I will control this through the web app. I might also try to use javascript to make things more dynamic because I have no idea how to actually use javascript.
 
