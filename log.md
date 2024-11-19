@@ -9,3 +9,12 @@ So I've been trying to use rpi-rf and after struggling for HOURS to fix a RunTim
 <br>
 **10/6/2024**  
 Turns out the IR LEDs that I wanted to use are not bright enough to shine across my room (10 ft) to the IR sensor on the ceiling. To solve this, I'm going to put an old Arduino board on my desk underneath the IR sensor mounted on the ceiling. I'll connect a 433mhz transmitter/receiver and IR LED to it. I will have the Pi communicate via 433mhz radio to the Arduino, which will send an IR signal up to the sensor as well as a confirmation signal so the Pi knows the signal was delivered.
+<br>
+<br>
+**10/2/2024  Original README**
+My goal for this project is to unify my room light control
+Right now I am using: a remote-controlled ceiling fan, 2 sets of rgb light strips (controlled separately), Christmas lights controlled by plugging in and unplugging the lights
+
+I am using a 2.4ghz tv remote from Amazon to control everything. It has a little dongle that I can plug into my Raspberry Pi 4. The RPi will have a 433mhz transmitter to communicate with the fan and outlet controller. I will also have an infrared transmitter on the RPi with line of sight to the RGB controller. I will use 2 seperate transmitters to control both the RGB controllers. I'm also adding an ultrasonic sensor in front of my door so the lights can automatically turn on and off.
+
+The other interface I will use is a Flask web-app interface to change settings. I will also add a sunrise alarm clock feature with schedules so that I can set different times for different days and I will control this through the web app. I might also try to use javascript to make things more dynamic because I have no idea how to actually use javascript.
