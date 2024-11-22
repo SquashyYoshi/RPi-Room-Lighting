@@ -1,5 +1,11 @@
+**11/22/2024**  
+I've done some more research and it turns out the HAT won't work. It's only designed to use a certain type of modulation, not OOK modulation. The 433mhz transmitters are terrible and it turns out they were missing part of the built-in antenna. Anyway, now, I'm going to work on setting up the Bluetooth connection between the RPi and the Arduino. I'm also setting up the IR-controlled rgb light strips and the ultrasonic sensor. I can at least make it so my rgb lights come on when I walk into my room, and this will lay the foundation for when I get the 433 mHz working.
+<br>
+<img src="https://m.media-amazon.com/images/I/71eWTMtqWxL.jpg" alt="lllMissing transmitter coil" width="250" height="350"/>
+<br>
+<br>
 **11/19/2024**  
-Ok so I've been very busy, but with the time I've had, I've been struggling to use these 433mhz transmitters/receivers. So far, I haven't been able to get the transmitter to work and the receiver only works if I have the remote touching it. I tried to make makeshift antennas using jumper wires bent around the antenna hole, but it didn't seem to help. My new plan is to buy a 433mhz transceiver HAT to communicate with the fan/outlet and use Bluetooth to talk to the Arduino on the other side of the room. I got the Arduino many moons ago in this discontinued kit for kids (Kosmo Duino I think), but I believe it is just a branded version of an Arduino Uno and I know for a fact it has Bluetooth.  
+Ok so I've been very busy, but with the time I've had, I've been struggling to use these 433mhz transmitters/receivers. So far, I haven't been able to get the transmitter to work and the receiver only works if I have the remote touching it. I tried to make makeshift antennas using jumper wires bent around the antenna hole, but it didn't seem to help. My new plan is to buy a 433mhz transceiver HAT to communicate with the fan/outlet and use Bluetooth to talk to the Arduino on the other side of the room. I got the Arduino many moons ago in this discontinued kit for kids (Kosmo Duino I think), but I believe it is just a branded version of an Arduino Uno and I know for a fact it has Bluetooth.
 <br>
 <br>
 **10/21/24**  
