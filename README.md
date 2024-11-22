@@ -7,7 +7,8 @@ I am using an existing IR remote to control everything. The RPi will have a 433m
 
 The other interface I will use is a Flask web-app interface to change settings. I will also add a sunrise alarm clock feature with schedules so that I can set different times for different days and I will control this through the web app. I might also try to use JavaScript to make things more dynamic because I have no idea how to actually use javascript.
 
-**Supplies:**  
+**Supplies:**
+<br>
 Raspberry pi 4 – 2gb RAM
 <br>&emsp;[Adafruit]([url](https://www.adafruit.com/product/4292))-$45 &emsp; [The Pi Hut]([url](https://thepihut.com/products/raspberry-pi-4-model-b?variant=20064052674622))-$47.93
  <br><br>
