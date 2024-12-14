@@ -1,0 +1,80 @@
+THESE WERE AI GENERATED BASE ON THE SOURCE FILE
+
+RFDevice Class
+The RFDevice class represents a GPIO RF device on a Raspberry Pi.
+
+Methods
+__init__(self, gpio, tx_proto=1, tx_pulselength=None, tx_repeat=10, tx_length=24, rx_tolerance=80)
+Initialize the RF device.
+    gpio: The GPIO pin number to use.
+    tx_proto: The transmission protocol to use (default: 1).
+    tx_pulselength: The pulse length to use (default: None).
+    tx_repeat: The number of times to repeat the transmission (default: 10).
+    tx_length: The length of the transmission (default: 24).
+    rx_tolerance: The tolerance for receiving signals (default: 80).
+
+cleanup(self)
+Disable TX and RX and clean up GPIO.
+
+enable_tx(self)
+Enable TX and set up GPIO.
+
+disable_tx(self)
+Disable TX and reset GPIO.
+
+enable_rx(self)
+Enable RX, set up GPIO, and add event detection.
+
+disable_rx(self)
+Disable RX and remove GPIO event detection.
+
+tx_code(self, code, tx_proto=None, tx_pulselength=None, tx_length=None)
+Send a decimal code.
+    code: The code to send.
+    tx_proto: The transmission protocol to use (default: None).
+    tx_pulselength: The pulse length to use (default: None).
+    tx_length: The length of the transmission (default: None).
+
+tx_bin(self, rawcode)
+Send a binary code.
+    rawcode: The binary code to send.
+
+tx_l0(self)
+Send a '0' bit.
+
+tx_l1(self)
+Send a '1' bit.
+
+tx_sync(self)
+Send a sync signal.
+
+tx_waveform(self, highpulses, lowpulses)
+Send a basic waveform.
+    highpulses: The number of high pulses to send.
+    lowpulses: The number of low pulses to send.
+
+Constants
+    MAX_CHANGES: The maximum number of changes allowed in the signal.
+    PROTOCOLS: A list of supported protocols.
+
+Usage
+    import RPi.GPIO as GPIO
+    from rpi_rf import RFDevice
+
+    # Initialize the RF device
+    rf_device = RFDevice(17)  # Use GPIO pin 17
+
+    # Enable TX
+    rf_device.enable_tx()
+
+    # Send a decimal code
+    rf_device.tx_code(12345)
+
+    # Send a binary code
+    rf_device.tx_bin('10101010')
+
+    # Disable TX
+    rf_device.disable_tx()
+
+    # Clean up GPIO
+    rf_device.cleanup()
