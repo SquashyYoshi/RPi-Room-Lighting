@@ -1,3 +1,12 @@
+**12/24/2024**  
+I have been stuggling trying to get the right rf signals to communicate with my fan. I honestly believe I can do it, but it sucks not making actual, mesurable progress on this project. I'm going to shift my focus to the other aspects of this project for now, and pretend I'm not going to control the fan at all.  
+<br>
+_What I need to do:_  
+    - Use 433mhz to connect Pi with Arduino  
+    - Configure Pi to be able to send IR signals to RGB controller  
+    - Implement ultrasonic sensor to automatically turn on/off RGB lights  
+<br>
+<br>
 **12/14/2024**  
 _I finally uploaded my code!_  
 So I've been trying to sniff my remote's radio signals using an arduino (so I can get a live plot from the receiver) and I learned that by averaging out 100 signal reads, I could filter out most noise. Then I made it so everything from the receiver would be recorded for a few seconds, then played back through a transmitter. Unfortunately, this added a lot of complexity to my program and introduced a ton of noise to the receiver. Now my plan is to get readings from the arduino using the code that didn't produce noise and screenshot the graph. I will then manually write down each signal. I only have a few buttons on my remote to record, so this solution should work and hopefully not take forever. I've also tried things like RPi-rf sniffer but they also seem to suffer from too much noise. I have hope that my dumb method of recording manually will work. This is supposed to be my CS50 final project, so I really hope I can get it done before the end of the year.  
