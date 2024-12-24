@@ -13,9 +13,13 @@ if __name__ == '__main__':
     beginning_time = datetime.now()
     print('**Started recording**')
     while cumulative_time < MAX_DURATION:
+        thisRun = 0
+        for i in range(200):
+            thisRun += GPIO.input(RECEIVE_PIN)
+        thisVal = round(thisRun / 200)
         time_delta = datetime.now() - beginning_time
         RECEIVED_SIGNAL[0].append(time_delta)
-        RECEIVED_SIGNAL[1].append(GPIO.input(RECEIVE_PIN))
+        RECEIVED_SIGNAL[1].append(thisVal)
         cumulative_time = time_delta.seconds
     print ('**Ended recording**')
     print (len(RECEIVED_SIGNAL[0]), 'samples recorded')
