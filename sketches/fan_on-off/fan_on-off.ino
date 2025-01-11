@@ -2,7 +2,7 @@
 //doesn't work right now, haven't figured out why ;(
 
 const int TX_PIN = 12;
-//up for x ms, down for x ms...
+//up for x ms, down for y ms...
 short lightCode[] = {40, 20, 40, 20, 40, 20, 40, 200, 280};
 short delaysLen = 9;
 
