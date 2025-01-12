@@ -10,7 +10,6 @@ The other interface I will use is a Flask web-app interface to change settings. 
 **Supplies:**
 <br>
 Raspberry pi 4 – 2gb RAM
-<br>&emsp;[Adafruit]([url](https://www.adafruit.com/product/4292))-$45 &emsp; [The Pi Hut]([url](https://thepihut.com/products/raspberry-pi-4-model-b?variant=20064052674622))-$47.93
  <br><br>
 Arduino microcontroller (I used one I already had)
 <br><br>
