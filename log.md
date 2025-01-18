@@ -1,3 +1,11 @@
+**1/18/2025**  
+So I've been very busy, doing a lot of stuff over the break, and it's been hard to get back into this project. From what it seems, my fan doesn't use any sort of set protocol that it sends signals on, which makes it hard to sniff them (can't use preexisting software). I'm going to focus on getting the Arduino and the Pi to communicate over 433mhz today. Longer term, my plan is to just hook up my rgb light strips (which used infared) to my system and ignore the fan. I may try communicating with the fan again later, I have a few ideas.  
+<br>
+_Ideas for communicating with fan:_  
+    - Smart light bulb in fan (doesn't help control actual fan and might need a smart hub)  
+    - Motors to physically push buttons on the remote (would be slower/loud)  
+<br>
+<br>
 **12/24/2024**  
 I have been stuggling trying to get the right rf signals to communicate with my fan. I honestly believe I can do it, but it sucks not making actual, mesurable progress on this project. I'm going to shift my focus to the other aspects of this project for now, and pretend I'm not going to control the fan at all.  
 <br>
