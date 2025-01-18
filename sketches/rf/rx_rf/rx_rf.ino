@@ -1,5 +1,5 @@
+//Prints a stream of digital data over a pin, averaged out over "waits" samples
 const int RX_PIN = 13;
-
 unsigned int count = 0; //total number of loop cycles
 int curSigs = 0; //total of all signal values taken in the last run of waits
 int waits = 2000; //how often sample is taken, more means less noise
