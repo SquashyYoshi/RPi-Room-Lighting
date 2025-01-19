@@ -1,3 +1,7 @@
+**1/19/2025**  
+I swear everything in this project wants me to fail. For example, I had the Pi receiving rf signals from the Arduino, and now it doesn't work. I've tried reverting the code and I can't get it to work right now. The name of the port changed and I still don't know why ( /dev/ttyACM0 to /dev/ttyACM1 ??? ). The serial monitor extension I was using to send commands to the arduino stopped loading for a while. There's just been so many things seemingly outside of my control that stopped working. As I'm writing this, the markdown preview also doesn't work like wth. That being said, I have managed for the Pi to send signals to the Arduino and that works fine. Once I get the communication figured out, the rest of the project should be much easier.
+<br>
+<br>
 **1/18/2025**  
 So I've been very busy, doing a lot of stuff over the break, and it's been hard to get back into this project. From what it seems, my fan doesn't use any sort of set protocol that it sends signals on, which makes it hard to sniff them (can't use preexisting software). I'm going to focus on getting the Arduino and the Pi to communicate over 433mhz today. Longer term, my plan is to just hook up my rgb light strips (which used infared) to my system and ignore the fan. I may try communicating with the fan again later, I have a few ideas.  
 <br>
