@@ -15,20 +15,7 @@ void setup()
 
 void loop()
 {
-    // int curSig = -1;
-    // if(rf.available()) {
-    //     curSig = rf.getReceivedValue();
-    //     Serial.print("received signal ");
-    //     Serial.println(curSig);
-    //     rf.resetAvailable();
-    // }
-    // if (Serial.available() > 0) {
-    //     chr = Serial.read();
-    //     int sig = chr - '0';
-    //     rf.send(sig, 24);
-    //     Serial.print("sent ");
-    //     Serial.println(sig);
-    // }
+    
     rf.send(2, 24);
     delay(500); 
 }
