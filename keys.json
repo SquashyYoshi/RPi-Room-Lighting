@@ -1,0 +1,143 @@
+{
+  "formats": [
+    {
+      "preamble": [
+        15,
+        8
+      ],
+      "coding": "ppm",
+      "zero": [
+        1,
+        1
+      ],
+      "one": [
+        1,
+        3
+      ],
+      "postamble": [
+        1
+      ],
+      "pre_data": "00 FF",
+      "byte_by_byte_complement": true,
+      "timebase": 580,
+      "gap": 39000,
+      "carrier": 38000
+    },
+    {
+      "preamble": [
+        16,
+        8
+      ],
+      "coding": "ppm",
+      "zero": [
+        1,
+        1
+      ],
+      "one": [
+        1,
+        3
+      ],
+      "postamble": [
+        1
+      ],
+      "pre_data": "00 FF",
+      "byte_by_byte_complement": true,
+      "timebase": 580,
+      "gap": 39000,
+      "carrier": 38000
+    },
+    {
+      "preamble": [
+        23,
+        12
+      ],
+      "coding": "ppm",
+      "zero": [
+        1,
+        2
+      ],
+      "one": [
+        1,
+        5
+      ],
+      "postamble": [
+        1
+      ],
+      "pre_data": "00 FF",
+      "byte_by_byte_complement": true,
+      "timebase": 380,
+      "gap": 39000,
+      "carrier": 38000
+    }
+  ],
+  "keys": {
+    "pwr": "40",
+    "skip": "41",
+    "darker": "5D",
+    "brighter": "5C",
+    "R0": "58",
+    "R1": "54",
+    "R2": "50",
+    "R3": "1C",
+    "R4": "18",
+    "G0": "59",
+    "G1": "55",
+    "G2": {
+      "format": 1,
+      "data": "51"
+    },
+    "G3": {
+      "format": 2,
+      "data": "1D"
+    },
+    "G4": {
+      "format": 1,
+      "data": "19"
+    },
+    "B0": "45",
+    "B1": "49",
+    "B2": "4D",
+    "B3": "1E",
+    "B4": "1A",
+    "W0": "44",
+    "W1": "48",
+    "W2": {
+      "format": 1,
+      "data": "4C"
+    },
+    "W3": "1F",
+    "W4": {
+      "format": 1,
+      "data": "1B"
+    },
+    "QUICK": "17",
+    "SLOW": "13",
+    "AUTO": "0F",
+    "FLASH": "0B",
+    "FADE7": "07",
+    "FADE3": "06",
+    "JUMP7": {
+      "format": 1,
+      "data": "05"
+    },
+    "JUMP3": "04",
+    "DIY1": "0C",
+    "DIY2": "0D",
+    "DIY3": "0E",
+    "DIY4": "08",
+    "DIY5": {
+      "format": 2,
+      "data": "09"
+    },
+    "DIY6": "0A",
+    "R5": "14",
+    "R6": "10",
+    "G5": "15",
+    "G6": "11",
+    "B5": "16",
+    "B6": {
+      "format": 2,
+      "data": "12"
+    }
+  }
+}
